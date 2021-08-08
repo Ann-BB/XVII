@@ -37,11 +37,7 @@ let user={
     age: 20,
     gender: 'female',
 };
-// pirveli varianti pasuxis povnis
-Object.values(user).forEach( (item) => {
-        console.log(item);
-})
-// meore varianti
+// pasuxi
 for (let x of Object.values(user)) {
     console.log(x);
 }
